@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
     border: none;
     display: flex;
@@ -54,15 +54,22 @@ body {
 .header-left {
     display: flex;
     align-content: center;
+    margin-left: 16px;
 }
 
 .header-right {
     display: flex;
     align-items: center;
+    margin-right: 16px;
 }
 
 .header-right button {
     margin-right: 10px;
+}
+
+.logo-header {
+    width: 32px;
+    height: 32px;
 }
 
 .menu {
@@ -141,7 +148,7 @@ body {
     box-shadow: none;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    color: #fff;
+    color: #fff !important;
     font: 500 14px "Google Sans",Arial,sans-serif;
     height: 36px;
     letter-spacing: .25px;
@@ -380,6 +387,7 @@ body {
     line-height: 1.25rem;
     color: #5f6368;
     font-weight: 400;
+    display: block;
 }
 
 .info-line a {
@@ -435,10 +443,24 @@ body {
     letter-spacing: .25px;
     text-shadow: none;
     text-transform: none;
+    border-radius: 3px;
+    padding: 0 24px;
 }
 
 .mdi-gray {
     color: rgba(0,0,0,.54);
+}
+
+.mdi-black {
+    color: #000;
+}
+
+.mdi-red {
+    color: #d93025;
+}
+
+.mdi-blue {
+    color: #1967d2;
 }
 
 .mdi-20 {
@@ -447,6 +469,10 @@ body {
 
 .mdi-16 {
     font-size: 16px;
+}
+
+.mdi-18 {
+    font-size: 18px;
 }
 
 .mdi-22 {
